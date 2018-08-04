@@ -4,7 +4,7 @@
     authDomain: "reaction-34cfc.firebaseapp.com",
     databaseURL: "https://reaction-34cfc.firebaseio.com",
     projectId: "reaction-34cfc",
-    storageBucket: "",
+    storageBucket: "notes",
     messagingSenderId: "527028953697"
   };
  
