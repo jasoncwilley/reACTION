@@ -17,7 +17,7 @@ class App extends Component {
     this.app = firebase.initializeApp(DB_CONFIG);
     this.database = this.app.database().ref().child('notes');
 
-    // We're going to setup the React state of our component
+   
     this.state = {
       notes: [],
     }
