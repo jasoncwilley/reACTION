@@ -10,10 +10,11 @@ class NoteForm extends Component{
         this.state = {
             newNoteContent: '',
         }; 
-        this.handleUserInput.UserInput = this.handleUserInput.bind(this);
+        this.handleUserInput = this.handleUserInput.bind(this);
         this.writeNote = this.writeNote.bind(this);
     }
     handleUserInput(e){
+        console.log(this);
         this.setState({
             newNoteContent: e.target.value,
         })
