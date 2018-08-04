@@ -1,15 +1,16 @@
 html{
   height: 100%;
-}
+ }
 
 body {
-  width: 100%;
-  min-height:100%;
+  width: 75%;
+  height: 100%;
+
   background: 
     linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8)),
     url('./Static/img/2.jpeg');
   background-attachment: fixed;
-  background-size: cover; 
+  background-size: auto; 
 }
 
 * {
@@ -22,20 +23,20 @@ body {
 
 .notesWrapper {
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
   height: 100%;
 }
 
 .notesHeader {
   display: flex;
-  flex: 1 1 5%;
+  float: left;
+
   min-height: 2.5em;
   max-height: 2em;
   font-size: 3.2em;
   color: #F4B350;
   font-family: 'Permanent Marker', cursive;
-  text-align: center;
+  padding-left: 300px;
   align-content: center;
   padding:20px 0px 20px 0px;
   margin-bottom: 6px;
@@ -43,7 +44,17 @@ body {
   text-shadow: 3px 3px 10px #000;
   display: block;
 }
+.subheading {
+  float:right;
+  font-size: 15px;
+  color: #F4B350;
+  font-family: 'Permanent Marker', cursive;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 6px;
 
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+}
 .notesBody {
   padding-top: 24px;
   display: flex;
@@ -58,4 +69,32 @@ body {
   display: flex;
   flex: 1 1 5%;
   background-color: rgba(0,0,0,0.5);
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  float: left;
+  height: 80px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  padding-left: 75px;
+  
+
+}
+.App-logo-right {
+  animation: App-logo-spin infinite 20s linear;
+  float: right;
+  height: 90px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  padding-right: 80px;
+  padding-top: 5px;
+  
+  
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

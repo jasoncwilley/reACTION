@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import Note from './Note/Note';
 import NoteForm from './NoteForm/NoteForm';
 import { DB_CONFIG } from './Config/config';
@@ -64,8 +65,12 @@ class App extends Component {
     return (
       <div className="notesWrapper">
         <div className="notesHeader">
-          <div className="heading">React & Firebase To-Do List</div>
-        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+          <h4> Re-Action To-Do List <img src={logo} className="App-logo-right" alt="logo" />
+</h4>
+         
+          <div className="subheading">Powered by Firebase</div>
+          </div>
         <div className="notesBody">
           {
             this.state.notes.map((note) => {

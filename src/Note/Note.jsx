@@ -18,11 +18,9 @@ class Note extends Component{
     render(){
         return(
             <div className="note fade-in">
-                <span className="closebtn" 
-                      onClick={() => this.handleRemoveNote(this.noteId)}>
-                      &times;
-                </span>
                 <p className="noteContent">{ this.noteContent }</p>
+                <button className="deleteButton"
+                onClick={() => this.handleRemoveNote(this.noteId)}>Delete</button>
             </div>
         )
     }
