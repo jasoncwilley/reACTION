@@ -1,7 +1,7 @@
 # Re-Action To-Do List Generator
-![N|Solid](http://oi66.tinypic.com/2ia8s52.jpg) 
+![N|Solid](http://i64.tinypic.com/nbdcms.png) 
 ###### Created with React and Powered by Firebase 
-- Click here to try Re-Action before you install it
+
 
 
 ##### Re-Action was created with:
