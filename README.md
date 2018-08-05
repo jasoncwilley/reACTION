@@ -1,4 +1,4 @@
-# Re-Action To-Do List 
+# Re-Action To-Do List Generator
 ![N|Solid](http://oi66.tinypic.com/2ia8s52.jpg) 
 ###### Created with React and Powered by Firebase 
 - Click here to try Re-Action before you install it
@@ -37,4 +37,34 @@ Install the required NodeJS packages using npm
 $ npm install react react-dom react-scripts firebase
 ```
 #### Step 4
-Go to Firebase.com and create a new web application.  Once you have created a new web app you will need to create a Config folder and a config.js file inside the src folder and paste t
+You will need to create a Config folder and a config.js file inside the src folder to hold your Firebase web application information.   
+```
+sh
+$ cd src
+```
+```
+sh
+$ mkdir Config
+```
+```
+sh
+$ touch config.js
+```
+#### Step 5
+Go to Firebase.com and create a new web application.  Once you have created a new web app paste your app's information into the config.js file.  All of the information you need will be inside of the pop up you see when you create the web app.  See the sample config.js file below.
+
+```sh
+   export const DB_CONFIG = {
+    apiKey: "your apikey",
+    authDomain: "your authDomain",
+    databaseURL: "your database URL",
+    projectId: "your projectId",
+    storageBucket: "notes",
+    messagingSenderId: "your messagingSenderId"
+  };
+```
+#### Step 6
+Finally run npm start to initialize the development server.
+```sh
+$ npm start
+```
