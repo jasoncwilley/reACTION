@@ -68,7 +68,7 @@ class App extends Component {
         <img src={logo} className="App-logo" alt="logo" />
           <h4> Re-Action To-Do List <img src={logo} className="App-logo-right" alt="logo" />
 </h4>
-         
+<div className="subheadingleft">Created with React</div>
           <div className="subheading">Powered by Firebase</div>
           </div>
         <div className="notesBody">
