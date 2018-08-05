@@ -2,7 +2,7 @@
   "name": "react-notes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jasoncwilley.github.io/reACTION/",
+  "homepage": "https://jasoncwilley.github.io/reACTION" ,
   "dependencies": {
     "firebase": "^5.3.1",
     "react": "^16.4.2",
