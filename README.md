@@ -34,7 +34,7 @@ $ cd reACTION
 #### Step 3
 Install the required NodeJS packages using npm
 ```sh
-$ npm install react react-dom react-scripts firebase
+$ npm install 
 ```
 #### Step 4
 You will need to create a Config folder and a config.js file inside the src folder to hold your Firebase web application information.   
