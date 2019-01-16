@@ -3,7 +3,7 @@ html{
  }
 
 body {
-  width: 100%;
+  min-width: 800px;
   height: 100%;
 
   background: 
@@ -36,7 +36,7 @@ body {
   font-size: 3.2em;
   color: #F4B350;
   font-family: 'Permanent Marker', cursive;
-  padding-left: 300px;
+  padding-left: 100px;
   align-content: center;
   padding:20px 0px 20px 0px;
   margin-bottom: 6px;
@@ -94,12 +94,13 @@ body {
 
 }
 .App-logo-right {
+  display: none;
   animation: App-logo-spin infinite 20s linear;
   float: right;
   height: 90px;
   animation-name: spin;
   animation-duration: 5000ms;
-  padding-right: 250px;
+  margin-right: 500px;
   padding-top: 5px;
   
   
